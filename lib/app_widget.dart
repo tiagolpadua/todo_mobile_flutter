@@ -7,7 +7,7 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'My Smart App',
+      title: 'My TODO App',
       theme: ThemeData(primarySwatch: Colors.blue),
       routerConfig: Modular.routerConfig,
     ); //added by extension
